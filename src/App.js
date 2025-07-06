@@ -24,25 +24,22 @@ import AarogyaGptHome from './pages/AarogyaGptHome.jsx';
 import PersonalInfoUpdate from './pages/PersonalInfoUpdate.jsx';
 import AarogyaChat from './pages/AarogyaChat.jsx';
 import History from './pages/History.jsx';
-import BankCards from './pages/BankCards.jsx';
-import AddNewCard from './pages/AddNewCard.jsx';
-import PaymentMethod from './pages/PaymentMethod.jsx';
+
 import CancelSubscription from './pages/CancelSubscription.jsx';
 import PlusSubscription from './pages/PlusSubscription.jsx';
 import Security from './pages/Security.jsx';
-import MarketingPreferences from './pages/MarketingPreferences.jsx';
+
 import NotificationSetting from './pages/NotificationSetting.jsx';
 import Language from './pages/Language.jsx';
-import Currency from './pages/Currency.jsx';
+
 import Faq from './pages/Faq.jsx';
 import DataPrivacy from './pages/DataPrivacy.jsx';
 import AboutAarogya from './pages/AboutAarogya.jsx';
 import Alert from './pages/Alert.jsx';
 import Confirmation from './pages/Confirmation.jsx';
-import ConfirmPaymentPin from './pages/ConfirmPaymentPin.jsx';
+
 import ContactUs from './pages/ContactUs.jsx';
-import SubscriptionPayment from './pages/SubscriptionPayment.jsx';
-import SelectPaymentMethod from './pages/SelectPaymentMethod.jsx';
+
 import Notification from './pages/Notification.jsx';
 import InviteFriends from './pages/InviteFriends.jsx';
 import Feedback from './pages/Feedback.jsx';
@@ -74,25 +71,22 @@ function App() {
         <Route path="/PersonalInfoUpdate" element={<PersonalInfoUpdate />} />
         <Route path="/AarogyaChat" element={<AarogyaChat />} />
         <Route path="/History" element={<History />} />
-        <Route path="/BankCards" element={<BankCards />} />
-        <Route path="/AddNewCard" element={<AddNewCard />} />
-        <Route path="/PaymentMethod" element={<PaymentMethod />} />
+
         <Route path="/CancelSubscription" element={<CancelSubscription />} />
         <Route path="/PlusSubscription" element={<PlusSubscription />} />
         <Route path="/Security" element={<Security />} />
-        <Route path="/MarketingPreferences" element={<MarketingPreferences />} />
+
         <Route path="/NotificationSetting" element={<NotificationSetting />} />
         <Route path="/Language" element={<Language />} />
-        <Route path="/Currency" element={<Currency />} />
+
         <Route path="/Faq" element={<Faq />} />
         <Route path="/DataPrivacy" element={<DataPrivacy />} />
         <Route path="/AboutAarogya" element={<AboutAarogya />} />
         <Route path="/Alert" element={<Alert />} />
         <Route path="/Confirmation" element={<Confirmation />} />
-        <Route path="/ConfirmPaymentPin" element={<ConfirmPaymentPin />} />
+
         <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/SubscriptionPayment" element={<SubscriptionPayment />} />
-        <Route path="/SelectPaymentMethod" element={<SelectPaymentMethod />} />
+
         <Route path="/Notification" element={<Notification />} />
         <Route path="/InviteFriends" element={<InviteFriends />} />
         <Route path="/Feedback" element={<Feedback />} />
